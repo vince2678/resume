@@ -28,7 +28,7 @@
 %\title{Resumé title}                               % optional, remove / comment the line if not wanted
 %\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
 \phone[mobile]{+1~647~974~5597}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
-\email{vincent@zvikaramba.com}                               % optional, remove / comment the line if not wanted
+\email{zvikovincent@gmail.com}                             % optional, remove / comment the line if not wanted
 %\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
 \social[linkedin]{zvikaram}                        % optional, remove / comment the line if not wanted
 %\social[twitter]{phhusson}                             % optional, remove / comment the line if not wanted
@@ -61,74 +61,65 @@
 \cventry{2021}{Honours Bachelor of Science}{University of Toronto}{}{}{Statistics, Computer Science}
 
 \section{Skills}
-\cvitem{Programming}{Java, Python, (POSIX) Shell, Typescript/Javascript, C, SQL}%{}{}%{category 4}{XXX, YYY, ZZZ}
-\cvitem{Tools}{Docker, Git, Node.js/Npm, Gerrit Code Review, GitLab, GNUMake, Ansible}%{}{}%{category 5}{XXX, YYY, ZZZ}
-\cvitem{Frameworks and libraries}{Java Collections, Guice, Gson, Guava, Lombok, JUnit, Spring, React,js, Backbone.js, Underscore.js, Django, SQLAlchemy}%{}{}%{category 6}{XXX, YYY, ZZZ}
+\cvitem{Programming}{Typescript/Javascript, Python, HTML, CSS, Java, C/C++, PHP, SQL, (POSIX) Shell}%{}{}%{category 4}{XXX, YYY, ZZZ}
+\cvitem{Tools}{Docker, Git, Node.js/Npm, Backbone.js, Underscore.js, Django ORM, GitLab, Celery, Nginx, Ansible}%{}{}%{category 5}{XXX, YYY, ZZZ}
+\cvitem{Frameworks and libraries}{React.js, Socket.IO, Celery, JQuery, Java Collections, Guice, Gson, Guava, Lombok, JUnit, Spring Boot, SQLAlchemy}%{}{}%{category 6}{XXX, YYY, ZZZ}
 
 \section{Interests}
-\cvitem{Electronics}{I enjoy tinkering with electronics at any level. Particularly enjoyed working with FPGAs and Verilog in university for programmatic circuit design.}
+\cvitem{Electronics}{I enjoy tinkering with hardware at every level. Particularly enjoyed working with FPGAs and Verilog in university for programmatic circuit design.}
 \cvitem{Reading}{I come from a family of avid readers; I'm usually reading research articles, documentation or spec sheets for miscellaneous electronic components.}
-\cvitem{Music}{I love listening to music and currently learning guitar (albeit very slowly).}
+\cvitem{Music}{I love listening to and playing music on guitar.}
 
 \section{Experience}
 
-\cventry{2022}{Software Engineer}{}{TitanFile Inc}{}{
+\cventry{2022--Present}{Software Engineer}{}{TitanFile Inc}{}{
 	\begin{itemize}
-		\item Performed code reviews and participated in daily meetings as part of regular duties,
-		\item Worked with senior developers as part of DevOps team to
-		improve performance and security of tools/infrastructure used for
-		development,
-		\item Improved display of embedded images in emails sent via app's outlook plugin,
-		\item Identified and optimized memory usage issue for pdf watermarking process.
+		\item Reviewed other developers' code ad part of code reviews and participated in daily stand-up meetings summarizing daily progress
+		\item Worked with senior developers as part of DevOps team to improve performance and security of tools/infrastructure used for development
+		\item Improved display of embedded images in emails sent via application's Outlook integration plugin
+		\item Identified and optimized memory usage issue for pdf watermarking process
+		\item Developed Microsoft 365 integration to enable editing documents within the web application, implementing new code in TypeScript and using React.js
 	\end{itemize}
 }
 
 \cventry{2016--2017}{Teaching Assistant}{Software Tools and Systems Programming}{University of Toronto}{}{
 	\begin{itemize}
-		\item Instructed students in tutorials and helped them troubleshoot and identify bugs in programming assignments,
-		\item Graded programming assignments and provided feedback for improvement,
-		\item Worked as part of a team of TAs to proctor tests and mark test papers.
+		\item Instructed students in tutorials and helped them troubleshoot and identify bugs in programming assignments
+		\item Graded programming assignments and provided feedback for improvement
+		\item Worked as part of a team of TAs to proctor tests and mark test papers
 	\end{itemize}
 }
 
 %\vspace*{-3mm}
 \section{Projects}
-\cventry{2022}{Client Management System}{South-Asian Women's Rights Organization}{Toronto}{}{
+\cventry{2022--Present}{Client Management System}{South-Asian Women's Rights Organization}{Toronto}{}{
 	\begin{itemize}
 		\item Worked as part of a team to build a client management system for SAWRO's
-		client database,
-		\item Used Python and Flask to write the web application,
-		\item Used an ORM (SQLAlchemy) to interact with the SQL database.
+		client database
+		\item Used Python and Flask to write the web application
+		\item Used an ORM (SQLAlchemy and Django) to interact with the SQL database
+		\item Rewrote CMS in Javascript and Python3 using Django ORM and MySQL for the backend and React.js and TS/ES6 for the frontend
 	\end{itemize}
 }
-\cventry{2022}{Website}{Promatec Solutions}{South Africa}{}{
+\cventry{2022--Present}{Website}{Promatec Solutions}{South Africa}{}{
 	\begin{itemize}
-        \item Collaborated with another developer to build a website and e-mail solution for Promatec,
-        \item Used docker for containerisation and easy deployment of services,
-        \item Deployed and leveraged Gerrit Code Review for collaboration and code review,
-        \item Wrote a python script hooking into the CloudFlare API for managing DNS records required or used in application containers,
-        \item Used Node.js as web server and as the backend for APIs exposed to the frontend,
-        \item Used React.js for UI component design and reuse.
-	\end{itemize}
-}
-\cventry{2019--Present}{Automated MMO Client}{}{}{Toronto}{
-	\begin{itemize}
-		\item Decompiled and debugged game client code to identify obfuscated game code functionality for modification via injection
-		\item Used reflection to inspect game state and instantiate some objects at runtime,
-		\item Used injection to expose game client classes, fields and methods where possible; and to add to or override original game client code,
-		\item Used Swing and AWT to design UI elements and intercept input events in order to inject new or modified input events to the game client,
-		\item Used breadth-first search and A* search with custom heuristics to create path-finding algorithm for searching optimal game world paths.
+        \item Collaborated with another developer to build a website and e-mail solution for Promatec
+        \item Used docker for containerisation and easy deployment of services
+        \item Deployed and leveraged Gerrit Code Review for collaboration and code review
+        \item Wrote a python script hooking into the CloudFlare API for managing DNS records required or used in application containers
+        \item Used Node.js as web server and as the backend for APIs exposed to the frontend
+        \item Used React.js for UI component design and reuse
 	\end{itemize}
 }
 \cventry{2015--2019}{\href{https://github.com/Galaxy-MSM8916}{Android Custom ROMs}}{}{}{}{
 	\begin{itemize}
 		\item Maintained support for Samsung devices originally running Android versions 4, 5, 6.0,
 		\item Maintained legacy kernel code and
-backported new kernel code,
+backported new kernel code
 		\item Developed tools and user-space interposer libraries for forward compatibility of
-proprietary libraries and programs with future android releases,
-		\item Maintained Makefiles for use in the build system,
-		\item Deployed Gerrit for code review and collaboration and Jenkins for builds and continuous integration.
+proprietary libraries and programs with future android releases
+		\item Maintained Makefiles for use in the build system
+		\item Deployed Gerrit for code review and collaboration and Jenkins for builds and continuous integration
 	\end{itemize}
 }
 
