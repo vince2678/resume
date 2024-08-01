@@ -114,13 +114,14 @@
 }
 \cventry{2015--2019}{\href{https://github.com/Galaxy-MSM8916}{Android Custom ROMs}}{}{}{}{
 	\begin{itemize}
-		\item Maintained support for Samsung devices originally running Android versions 4, 5, 6.0
-		\item Maintained legacy kernel code and
-backported new kernel code
-		\item Developed tools and user-space interposer libraries for forward compatibility of
-proprietary libraries and programs with future android releases
-		\item Maintained Makefiles for use in the build system
-		\item Deployed Gerrit for code review and collaboration and Jenkins for builds and continuous integration
+		\item Maintained support for Samsung devices originally running Android versions 4.0 through 6.0, allowing them to run newer Android
+        versions up to and including Android 10 (Q)
+		\item Maintained kernel code provided by the phone and board OEMs (Samsung, Qualcomm),
+backporting upstream security fixes, new kernel features and driver updates to legacy code
+		\item Developed userspace android system tools and interposing libraries to provide forward compatibility for newer versions of Android to
+proprietary OEM libraries and programs
+		\item Customised and created Makefiles for use with Android's various build systems (Make, Ninja)
+		\item Deployed Jenkins for cautomated builds with Gerrit for code review and collaboration with GIT as the VCS backend
 	\end{itemize}
 }
 
