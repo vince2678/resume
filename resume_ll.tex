@@ -75,13 +75,14 @@ Full Stack Engineer passionate about knowledge-sharing, mentoring peers, and sta
 
 \section{Skills}
 \cvitem{Languages}{Python, Bash/Unix Shell,TypeScript/JavaScript, C/C++, Java, SQL, LaTeX}
+%\cvitem{Frameworks}{React, Spring Boot, Django, SQL Alchemy, Guice, Gson, Docker, Git, Node.js, Nginx, Jenkins, Ansible, GitLab CI, Gerrit, MySQL/MariaDB, Redis}
 %\cvitem{Frameworks and Libraries}{React, Spring Boot, Django, SQL Alchemy, Guice, Gson, Docker, Git, Node.js, Nginx, Jenkins, Ansible, GitLab CI, Gerrit, MySQL/MariaDB, Redis}
-%\cvitem{Languages}{TypeScript/JavaScript, Python, Bash/Unix shell scripting, SQL, LaTeX}
 %\cvitem{Frameworks and Libraries}{React.JS, Django, Docker, Git, Node.js, Nginx, Ansible, GitLab CI, MySQL/MariaDB, Redis}
-\cvitem{Front-end}{TypeScript/JavaScript, React.js, Jest, Playwright, Backbone.js, HTML5, SCSS }
-\cvitem{Back-end}{Python, Django, NPM/Node.js, Docker, Git, Bash/Unix shell scripting, MySQL}
-%\cvitem{DevOps}{Containerization, CI/CD pipelines}{}%
+%\cvitem{Front-end}{TypeScript/JavaScript, React.js, Jest, Playwright, Backbone.js, HTML5, SCSS }
+%\cvitem{Back-end}{Python, Django, NPM/Node.js, Docker, Git, Bash/Unix shell scripting, MySQL}
+\cvitem{Infra/DevOps}{Docker, Ansible, GitLab, Gerrit, Jenkins, BuildKite}{}%
 % \cvitem{Other}{CloudFlare API, SE Linux, Android Build Systems}
+\cvitem{Other}{CloudFlare API, SE Linux, Debian/RedHat-based systems, Android Build Systems}
 
 \section{Experience}
 
@@ -108,7 +109,6 @@ Full Stack Engineer passionate about knowledge-sharing, mentoring peers, and sta
 \item Updated DocuSign integration to accept JSON web-hooks, increasing security by using more secure XML parser implementation and enforcing future usage of JSON web-hooks, while maintaining compatibility with older XML-based web-hooks for a seamless update.
 \item Ported core Marionette views to React in TypeScript, improving code readability, reducing technical debt and minimizing uncaught bugs.
 \item Leveraged React Context API on the front-end to manage and share state between components, improving the scalability and maintainability of the application.
-\item Led internal hackathon project integrating the ChatGPT API to help craft user messages in the app and perform repetitive tasks, optimizing user workflows and enhance user experience.
 %\item On-boarded and mentored 3 new engineers, filling gaps in their knowledge of the tech stack, helping reduce technical debt and fostering a collaborative team environment, ensuring seamless integration into the tech stack and workflows.
 %\item Add some shid about React Context wrt MS365 here
    \end{itemize}
@@ -153,6 +153,16 @@ Full Stack Engineer passionate about knowledge-sharing, mentoring peers, and sta
 %\item Automated DNS record management for website and email solution using a Python script integrated with CloudFlare API.
 %	\end{itemize}
 %}
+
+\cventry{2015--2019}{\href{https://github.com/Galaxy-MSM8916}{Android Custom ROMs}}{}{}{}{
+   \begin{itemize}
+        \item Deployed Jenkins/BuikdKite, to automate builds on code submission in Gerrit.
+        \item Configured Debian-based executors to perform full Android builds via trigger from Jenkins/BuildKite.
+        \item Wrote and maintained POSIX shell and Python scripts to perform full Android builds and upload artifacts to cloud storage and distribution.
+        \item Implemented shims for older unsupported proprietary OEM libraries, ensuring device compatibility with new major Android releases.
+        \item Analyzed system logs to debug builds and wrote SELinux policies to ensure devices are fully functional and secure by running trusted code, maintaining security on Android upgrades.
+        \end{itemize}
+    }
 
 \end{document}
 
