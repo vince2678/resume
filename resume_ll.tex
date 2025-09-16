@@ -1,0 +1,159 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2015 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{purple}                               % color options 'black', 'blue' (default), 'burgundy', 'green', 'grey', 'orange', 'purple' and 'red'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+%\usepackage{hyperref}
+
+% adjust the page margins
+\usepackage[margin=0.75in,scale=1.0]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Vincent Zvikaramba}{}
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{647-220-0748}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{zvikovincent@gmail.com}                             % optional, remove / comment the line if not wanted
+%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+\social[linkedin]{zvikaram}                        % optional, remove / comment the line if not wanted
+%\social[twitter]{phhusson}                             % optional, remove / comment the line if not wanted
+\social[github]{vince2678}                              % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% bibliography adjustements (only useful if you make citations in your resume, or print a list of publications using BibTeX)
+%   to show numerical labels in the bibliography (default is to show no labels)
+\makeatletter\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}\makeatother
+%   to redefine the bibliography heading string ("Publications")
+%\renewcommand{\refname}{Articles}
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+	\vspace*{-15mm}
+\makecvtitle
+	\vspace*{-10mm}
+
+\section{Professional Summary}
+% Proficient in modern web frameworks, RESTful APIs, and cloud infrastructure,
+\cvitem{}{
+% Full Stack Engineer with extensive experience designing and implementing scalable, user-centric solutions, with a strong focus on delivering seamless user experiences and optimizing system performance.
+% Skilled in translating design concepts into responsive interfaces, improving system performance, and leading collaborative projects. Adept at collaborating across teams, mentoring fellow engineers, and integrating innovative technologies.
+%Full Stack Engineer with a focus on scalable, user-focused solutions and system performance. Skilled in building responsive interfaces, leading projects, mentoring, and integrating new technologies.
+%Adept at collaborating across teams, mentoring fellow developers, and integrating innovative technologies.
+%Full Stack Engineer with a strong background in cross-functional collaboration and delivering robust, end-to-end web solutions.
+%Passionate about knowledge-sharing, mentoring peers, and staying ahead of the curve by experimenting with and implementing cutting-edge technologies.
+Full Stack Engineer passionate about knowledge-sharing, mentoring peers, and staying ahead of the curve by experimenting with and implementing cutting-edge technologies.
+}
+
+\section{Education}
+\cventry{2021}{Honors BSc}{University of Toronto}{Statistics and Computer Science}{}{} %{Statistics and Computer Science}
+
+
+\section{Skills}
+\cvitem{Languages}{Python, Bash/Unix Shell,TypeScript/JavaScript, C/C++, Java, SQL, LaTeX}
+%\cvitem{Frameworks and Libraries}{React, Spring Boot, Django, SQL Alchemy, Guice, Gson, Docker, Git, Node.js, Nginx, Jenkins, Ansible, GitLab CI, Gerrit, MySQL/MariaDB, Redis}
+%\cvitem{Languages}{TypeScript/JavaScript, Python, Bash/Unix shell scripting, SQL, LaTeX}
+%\cvitem{Frameworks and Libraries}{React.JS, Django, Docker, Git, Node.js, Nginx, Ansible, GitLab CI, MySQL/MariaDB, Redis}
+\cvitem{Front-end}{TypeScript/JavaScript, React.js, Jest, Playwright, Backbone.js, HTML5, SCSS }
+\cvitem{Back-end}{Python, Django, NPM/Node.js, Docker, Git, Bash/Unix shell scripting, MySQL}
+%\cvitem{DevOps}{Containerization, CI/CD pipelines}{}%
+% \cvitem{Other}{CloudFlare API, SE Linux, Android Build Systems}
+
+\section{Experience}
+
+\cventry{Apr 2022-- May 2025}{Full Stack Engineer}{TitanFile Inc}{Toronto}{}{
+% \textbf{Intermediate Developer}
+% \textbf{Roles}
+% \begin{itemize}
+%     \item Directly Responsible Individual (DRI) - Infrastructure
+%     \item Lead - MS365 integration development
+%     \item Member - Admin Console Rewrite team
+% \end{itemize}
+  %\textbf{Responsibilities}
+   \textbf{Accomplishments}
+    %\newline
+  \begin{itemize}
+\item Migrated from Python3.8 to Python3.11 as DRI (Directly Responsible Individual) of Infrastructure, speeding up Django back-end execution by 20\%.
+\item Optimized GitLab CI jobs as DRI of DevOps to skip unneeded or unchanged jobs, speeding up testing pipelines by 10\%. 
+\item Implemented MS365 integration from scratch to allow enabling seamless document editing; and reduced technical dept by adopting TypeScript in the code-base and creating a template for future front-end development in TypeScript and React.
+\item On-boarded and mentored 3 new engineers; directly mentoring one engineer to become DRI for MS365 integration development.
+\item Created new React components and views as part of Admin Settings Console rewrite on the front-end, implementing 90\% of views according to requirements within 3 months.
+\item Resolved performance bottlenecks in PDF watermarking of large files on the back-end, reducing downtime and memory usage by 10\% and allowing for more responsive PDF previewing of large files on the front-end.
+\item Reduced memory usage and increased up-time by analyzing slow database queries causing crashes, using SQL commands on the back-end to optimize slow Django queries.
+\item Implemented React Router routing as part of Admin Console rewrite, simplifying browser-side navigation.
+\item Updated DocuSign integration to accept JSON web-hooks, increasing security by using more secure XML parser implementation and enforcing future usage of JSON web-hooks, while maintaining compatibility with older XML-based web-hooks for a seamless update.
+\item Ported core Marionette views to React in TypeScript, improving code readability, reducing technical debt and minimizing uncaught bugs.
+\item Leveraged React Context API on the front-end to manage and share state between components, improving the scalability and maintainability of the application.
+\item Led internal hackathon project integrating the ChatGPT API to help craft user messages in the app and perform repetitive tasks, optimizing user workflows and enhance user experience.
+%\item On-boarded and mentored 3 new engineers, filling gaps in their knowledge of the tech stack, helping reduce technical debt and fostering a collaborative team environment, ensuring seamless integration into the tech stack and workflows.
+%\item Add some shid about React Context wrt MS365 here
+   \end{itemize}
+   %\newline
+%    \textbf{New Grad / Junior Developer}
+\textbf{Responsibilities}
+    %\newline
+	\begin{itemize}
+       % {
+\item Updated Ansible templates for core services, including Tornado, Nginx and Redis, to patch vulnerabilities from security scanner, helping adhere to OWASP Top 10 and maintain security compliance scores.
+\item Participated in code reviews, helping enhance code quality, improving maintainability and reducing bugs by encouraging usage of TypeScript over JavaScript and type hinting in Python.
+\item Translated Figma designs into fully responsive and interactive front-end components using React, TypeScript and SCSS, with a focus on code and asset re-usability through usage of standard icon sets such as Font Awesome.
+\item Wrote code and handled data with security in mind, ensuring HIIPA and GDPR compliance.
+\item Collaborated with other DevOps team members to migrate legacy virtual machine based systems to containerized environments using Docker.
+%}
+%\textbf{General}
+	\end{itemize}
+}
+
+%\newpage
+%Previous temporary/contract positions:\newline
+%\cventry{2021--2023}{Client Management System}{South-Asian Women's Rights Organization }{Toronto}{}{}
+%cventry{2021}{Website}{Promatec Solutions}{South Africa}{}{}
+%\cventry{2017}{Teaching Assistant}{University of Toronto}{Toronto}{}{}
+
+
+%\newpage
+%%\vspace*{-3mm}
+%%\section{Contracts}
+%\cventry{2021--2023}{Client Management System}{South-Asian Women's Rights Organization (Contract)}{Toronto}{}{
+%	\begin{itemize}
+%\item Redesigned the legacy system using Django and Python3 on back-end and React, Next.JS on the front-end, ensuring future scalability and maintainability.
+%\item Designed and deployed REST APIs to facilitate secure, efficient data exchanges between MySQL database and client interfaces.
+%	\end{itemize}
+%}
+%%\newpage
+%\cventry{2021}{Website}{Promatec Solutions (Contract)}{South Africa}{}{
+%	\begin{itemize}
+%\item Built and deployed a responsive containerized web application from scratch using React and TypeScript on the front-end and NodeJS on the back-end in a month.
+%\item Built custom email solution using bespoke containers running postfix and dovecot.
+%\item Utilized Docker for streamlined deployment and Gerrit Code Review for team collaboration.
+%\item Automated DNS record management for website and email solution using a Python script integrated with CloudFlare API.
+%	\end{itemize}
+%}
+
+\end{document}
+
+%% end of file `template.tex'.
