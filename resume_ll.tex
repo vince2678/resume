@@ -20,6 +20,7 @@
 
 % adjust the page margins
 \usepackage[margin=0.75in,scale=1.0]{geometry}
+
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -49,6 +50,11 @@
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
+
+% Page Footer
+\usepackage{fancyhdr}
+
+\fancyfoot[C]{\textit{\textcolor{gray}{\tiny{Typeset in \LaTeX}}}}
 
 \begin{document}
 %\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
@@ -164,7 +170,6 @@ Full Stack Engineer passionate about knowledge-sharing, mentoring peers, and sta
         \item Analyzed system logs to debug builds and wrote SELinux policies to ensure devices are fully functional and secure by running trusted code, maintaining security on Android upgrades.
         \end{itemize}
     }
-
 \end{document}
 
 %% end of file `template.tex'.
