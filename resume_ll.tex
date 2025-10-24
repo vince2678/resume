@@ -92,6 +92,14 @@
 
 \section{Experience}
 
+\cventry{Jun 2025 -- Present}{Client Management System}{South-Asian Women's Rights Organization}{Toronto}{}{
+    \begin{itemize}
+        \item Redesigned legacy PHP, Flask and SQL based system; using Django and Python3 on back-end, and React, Next.JS routing on the front-end, ensuring future scalability and maintainability.
+        \item Deployed REST APIs to facilitate secure, efficient data exchanges between MySQL database and client interfaces.
+    \end{itemize}
+}
+
+
 \cventry{Apr 2022-- Jun 2025}{Full Stack Engineer}{TitanFile Inc}{Toronto}{}{
 % \textbf{Intermediate Developer}
 % \textbf{Roles}
@@ -160,14 +168,17 @@
 %\item Automated DNS record management for website and email solution using a Python script integrated with CloudFlare API.
 %	\end{itemize}
 %}
-
-\cventry{2015--2020}{\href{https://github.com/Galaxy-MSM8916}{Android Custom ROMs}}{}{}{}{
+\newpage
+\cventry{2015--2020}{Maintainer}{\href{https://github.com/Galaxy-MSM8916}{LineageOS Android Distribution}}{}{}{}{
    \begin{itemize}
-        \item Deployed Jenkins/BuikdKite, to automate builds on code submission in Gerrit.
-        \item Configured Debian-based executors to perform full Android builds via trigger from Jenkins/BuildKite.
-        \item Wrote and maintained POSIX shell and Python scripts to perform full Android builds and upload artifacts to cloud storage and distribution.
-        \item Updated older Linux kernel driver code and implemented shims for older unsupported proprietary OEM libraries, ensuring device compatibility with new major Android releases.
-        \item Analyzed system logs to debug builds and wrote SELinux policies to ensure devices are fully functional and secure by running trusted code, maintaining security on Android upgrades.
+        \item Created and maintained device trees for Samsung devices past official security or release update support.
+        \item Configured and used GCP to spin up Debian-based build server instances based on GitHub web-hooks and BuildKite.
+        \item Deployed Jenkins, then BuikdKite, to automate builds on code submission in Gerrit and GitHub.
+        \item Wrote and maintained Linux shell and Python scripts to perform full Android builds and upload artifacts to cloud storage and distribution.
+        \item Merged device-specific kernel code from CodeAurora Forums (now CodeLinaro), AOSP common and LineageOS to maintain kernel compatibility and provide security patches with new Android releases.
+        \item Updated older Linux kernel vendor code to keep up with major changes in AOSP driver interfaces.
+        \item Implemented shim libraries in C/C++ to allow use of older proprietary vendor modules after Hardware Abstraction Layer (HAL) changes in AOSP, ensuring device compatibility between major Android releases.
+        \item Analyzed system logs from Android devices to write or modify SELinux policies and ensure fully functionality while maintaining security between Android upgrades.
         \end{itemize}
     }
 \end{document}
